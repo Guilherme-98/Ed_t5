@@ -1,0 +1,217 @@
+8,0
+
+- mostrou execução do p?
+- parece que interdicoes e caminho seguro nao foram implementados
+- implementou hashfile, mas parece que não usou
+- parece que não implementou ccv, nem delições de arestas
+##
+## COMPILANDO  AS SUBMISSOES
+##
+
+====> COMPILANDO: gabrielpgs-guilhermehgs
+
+## COMPILANDO SUBMISSAO DO ALUNO: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src
+   > removendo .o pre-existentes 
+  > compilando
+.[2021-06-23T15:15:07.651159].
+gcc -g -c main.c -o main.o
+gcc -g -c argumentos.c -o argumentos.o
+gcc -g -c arquivos.c -o arquivos.o
+gcc -g -c leitura_geo.c -o leitura_geo.o
+gcc -g -c svg.c -o svg.o
+gcc -g -c leitura_gry.c -o leitura_gry.o
+gcc -g -c consultas.c -o consultas.o
+gcc -g -c util.c -o util.o
+gcc -g -c elementos/quadra.c -o elementos/quadra.o
+gcc -g -c lista.c -o lista.o
+gcc -g -c elementos/texto.c -o elementos/texto.o
+gcc -g -c elementos/hidrante.c -o elementos/hidrante.o
+gcc -g -c elementos/semaforo.c -o elementos/semaforo.o
+gcc -g -c elementos/radioBase.c -o elementos/radioBase.o
+gcc -g -c elementos/forma.c -o elementos/forma.o
+gcc -g -c elementos/posto.c -o elementos/posto.o
+gcc -g -c elementos/casos.c -o elementos/casos.o
+gcc -g -c elementos/casosDentro.c -o elementos/casosDentro.o
+gcc -g -c elementos/vertice.c -o elementos/vertice.o
+gcc -g -c shell_sort.c -o shell_sort.o
+gcc -g -c quick_sort.c -o quick_sort.o
+gcc -g -c quadTree.c -o quadTree.o
+gcc -g -c pessoa.c -o pessoa.o
+gcc -g -c comercio.c -o comercio.o
+gcc -g -c hashTable.c -o hashTable.o
+gcc -g -c tipoComercio.c -o tipoComercio.o
+gcc -g -c moradores.c -o moradores.o
+gcc -g -c leitura_ec.c -o leitura_ec.o
+gcc -g -c leitura_pm.c -o leitura_pm.o
+gcc -g -c moradores_qry.c -o moradores_qry.o
+gcc -g -c comercio_qry.c -o comercio_qry.o
+gcc -g -c ponto.c -o ponto.o
+gcc -g -c tipoComercio_qry.c -o tipoComercio_qry.o
+gcc -g -c svg_qry.c -o svg_qry.o
+gcc -g -c pilha.c -o pilha.o
+gcc -g -c vetor.c -o vetor.o
+gcc -g -c ordenacao.c -o ordenacao.o
+gcc -g -c grafo.c -o grafo.o
+gcc -g -c prioridade_fila.c -o prioridade_fila.o
+gcc -g -c leitura_via.c -o leitura_via.o
+gcc -g -c qry_via.c -o qry_via.o
+gcc -g -c hashFile.c -o hashFile.o
+gcc main.o argumentos.o arquivos.o leitura_geo.o svg.o leitura_gry.o consultas.o util.o elementos/quadra.o lista.o  elementos/texto.o  elementos/hidrante.o elementos/semaforo.o elementos/radioBase.o elementos/forma.o elementos/posto.o elementos/casos.o elementos/casosDentro.o elementos/vertice.o shell_sort.o quick_sort.o quadTree.o pessoa.o comercio.o hashTable.o tipoComercio.o moradores.o leitura_ec.o leitura_pm.o moradores_qry.o comercio_qry.o ponto.o tipoComercio_qry.o svg_qry.o pilha.o vetor.o ordenacao.o grafo.o prioridade_fila.o leitura_via.o qry_via.o hashFile.o -std=c99 -fstack-protector-all -g -lm  -o siguel
+.[2021-06-23T15:15:30.630229].
+##
+## TESTANDO AS SUBMISSOES
+##
+
+====> TESTANDO: gabrielpgs-guilhermehgs
+
+===== EXECUTANDO TESTES: 
+    > dir_tst:/home/eb/Dropbox/ED/CorrTrab/2020/t5/t
+    > dir saida: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o
+    > prog: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel
+    > ecpm: True
+    > comVias: True
+    > comBd: False
+   > removendo arquivos  pre-existentes: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o  *.txt 
+
+   > removendo arquivos  pre-existentes: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o  *.svg 
+
+   > arq =  /home/eb/Dropbox/ED/CorrTrab/2020/t5/t/c1.geo
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via 
+
+.[2021-06-23T15:15:30.632993].
+   > nomearq: c1 
+
+   dirqry: /home/eb/Dropbox/ED/CorrTrab/2020/t5/t/c1 
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/perc-smpls-bike-diag.qry
+
+.[2021-06-23T15:15:31.149276].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/perc-smpls-bike-catac-peq-diag.qry
+
+.[2021-06-23T15:15:31.738564].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/perc-smpls-interd-diag.qry
+
+.[2021-06-23T15:15:32.442390].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/perc-smpls-diag.qry
+
+.[2021-06-23T15:15:33.350920].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/perc-smpls-seg-diag.qry
+
+.[2021-06-23T15:15:34.309540].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  -v c1-v.via   -q c1/soc-1.qry
+
+.[2021-06-23T15:15:34.847863].
+   > arq =  /home/eb/Dropbox/ED/CorrTrab/2020/t5/t/c2.geo
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via 
+
+.[2021-06-23T15:15:35.470222].
+   > nomearq: c2 
+
+   dirqry: /home/eb/Dropbox/ED/CorrTrab/2020/t5/t/c2 
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/perc-smpls-bike-diag.qry
+
+.[2021-06-23T15:16:08.137911].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/catac-centrosul-cidade-amplo.qry
+
+.[2021-06-23T15:16:42.935865].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/perc-smpls-interd-diag.qry
+
+.[2021-06-23T15:17:52.970165].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/soc-2.qry
+
+.[2021-06-23T15:18:57.238459].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/perc-smpls-diag.qry
+
+.[2021-06-23T15:19:30.903029].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/perc-smpls-equrb-endr.qry
+
+.[2021-06-23T15:20:29.302412].
+***Teste interrompido
+.[2021-06-23T19:31:04.868607].
+
+
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via   -q c2/perc-smpls-bike-mrdr-endr.qry
+
+.[2021-06-23T19:31:04.869160].
+===== EXECUTANDO TESTES EXTRAS: 
+    > dir_tst:/home/eb/Dropbox/ED/CorrTrab/2020/t5/t
+    > dir saida: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o
+    > prog: /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel
+    > ecpm: True
+    > comVias: True
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via -k bd-c2  -q c2/catac-centrosul-cidade-amplo.qry
+
+.[2021-06-23T19:31:49.878105].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t5/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  -v c2-v.via -u bd-c2  -q c2/perc-smpls-diag.qry
+
+.[2021-06-23T19:33:12.976367].
+/home/eb/Dropbox/ED/CorrTrab/2020/t5/alunos/gabrielpgs-guilhermehgs/o/*.svg
+
+>>
+>> Arquivos SVG produzidos
+>>
+
+Numero de arquivos: 20
+ c1-perc-smpls-bike-catac-peq-diag.svg 288554
+ c1-perc-smpls-bike-diag.svg... 321297
+ c1-perc-smpls-diag-perc-smpls-diag.svg 321758
+ c1-perc-smpls-diag.svg........ 321297
+ c1-perc-smpls-interd-diag-perc-smpls-interd-diag.svg 321758
+ c1-perc-smpls-interd-diag.svg. 328869
+ c1-perc-smpls-seg-diag.svg.... 325465
+ c1-soc-1.svg.................. 321187
+ c1.svg........................ 320967
+ c2-catac-centrosul-cidade-amplo.svg 2538966
+ c2-perc-smpls-bike-diag.svg... 2897214
+ c2-perc-smpls-bike-mrdr-endr.svg 2897231
+ c2-perc-smpls-diag-perc-smpls-diag.svg 2897671
+ c2-perc-smpls-diag.svg........ 2897214
+ c2-perc-smpls-equrb-endr-perc-smpls-equrb-endr.svg 2147483647
+ c2-perc-smpls-equrb-endr.svg.. 0
+ c2-perc-smpls-interd-diag-perc-smpls-interd-diag.svg 2897671
+ c2-perc-smpls-interd-diag.svg. 3018669
+ c2-soc-2.svg.................. 2897220
+ c2.svg........................ 2896884
+:::2176193539
+
+
+>>
+>> Arquivos TXT produzidos
+>>
+
+Numero de arquivos: 13
+ c1-perc-smpls-bike-catac-peq-diag.txt 16665
+ c1-perc-smpls-bike-diag.txt... 0
+ c1-perc-smpls-diag.txt........ 1
+ c1-perc-smpls-interd-diag.txt. 1041
+ c1-perc-smpls-seg-diag.txt.... 0
+ c1-soc-1.txt.................. 193
+ c2-catac-centrosul-cidade-amplo.txt 141680
+ c2-perc-smpls-bike-diag.txt... 0
+ c2-perc-smpls-bike-mrdr-endr.txt 0
+ c2-perc-smpls-diag.txt........ 1
+ c2-perc-smpls-equrb-endr.txt.. 0
+ c2-perc-smpls-interd-diag.txt. 17023
+ c2-soc-2.txt.................. 473
+:::177077
+
+
+>>
+>> Arquivos SVG pequenos
+>>
+
+ c2-perc-smpls-equrb-endr.svg.. 0
+Arquivos reportados 1
+
+>>
+>> Arquivos TXT pequenos
+>>
+
+ c1-perc-smpls-bike-diag.txt... 0
+ c1-perc-smpls-diag.txt........ 1
+ c1-perc-smpls-seg-diag.txt.... 0
+ c2-perc-smpls-bike-diag.txt... 0
+ c2-perc-smpls-bike-mrdr-endr.txt 0
+ c2-perc-smpls-diag.txt........ 1
+ c2-perc-smpls-equrb-endr.txt.. 0
+Arquivos reportados 7
+================================
